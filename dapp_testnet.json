@@ -1,0 +1,14 @@
+[
+    {
+    "id": 1,
+    "name_chinese": "坦克大战",
+    "name_english": "Battle City",
+    "image": "xbgxwh/battle_city:1.0.0",
+    "contract": "0xE108c1F5Da817Bb2908a48BDE47B08B2f2731B29",
+    "abi": "[\n  {\n    \"type\": \"constructor\",\n    \"stateMutability\": \"nonpayable\",\n    \"inputs\": [{ \"type\": \"address\", \"name\": \"_dep\", \"internalType\": \"address\" }]\n  },\n  {\n    \"type\": \"event\",\n    \"name\": \"NewTaskChange\",\n    \"inputs\": [\n      {\n        \"type\": \"string\",\n        \"name\": \"url\",\n        \"internalType\": \"string\",\n        \"indexed\": false\n      },\n      {\n        \"type\": \"uint256\",\n        \"name\": \"time\",\n        \"internalType\": \"uint256\",\n        \"indexed\": false\n      }\n    ],\n    \"anonymous\": false\n  },\n  {\n    \"type\": \"function\",\n    \"stateMutability\": \"view\",\n    \"outputs\": [\n      { \"type\": \"string\", \"name\": \"url\", \"internalType\": \"string\" },\n      { \"type\": \"string\", \"name\": \"options\", \"internalType\": \"string\" }\n    ],\n    \"name\": \"currentWork\",\n    \"inputs\": []\n  },\n  {\n    \"type\": \"function\",\n    \"stateMutability\": \"view\",\n    \"outputs\": [\n      { \"type\": \"address\", \"name\": \"\", \"internalType\": \"contract IDEP\" }\n    ],\n    \"name\": \"dep\",\n    \"inputs\": []\n  },\n  {\n    \"type\": \"function\",\n    \"stateMutability\": \"view\",\n    \"outputs\": [{ \"type\": \"address\", \"name\": \"\", \"internalType\": \"address\" }],\n    \"name\": \"owner\",\n    \"inputs\": []\n  },\n  {\n    \"type\": \"function\",\n    \"stateMutability\": \"nonpayable\",\n    \"outputs\": [],\n    \"name\": \"payForTask\",\n    \"inputs\": [\n      {\n        \"type\": \"address[]\",\n        \"name\": \"user_address\",\n        \"internalType\": \"address[]\"\n      },\n      { \"type\": \"uint64\", \"name\": \"maintainBlocks\", \"internalType\": \"uint64\" }\n    ]\n  },\n  {\n    \"type\": \"function\",\n    \"stateMutability\": \"nonpayable\",\n    \"outputs\": [],\n    \"name\": \"setDEP\",\n    \"inputs\": [\n      { \"type\": \"address\", \"name\": \"_dep\", \"internalType\": \"contract IDEP\" }\n    ]\n  },\n  {\n    \"type\": \"function\",\n    \"stateMutability\": \"nonpayable\",\n    \"outputs\": [],\n    \"name\": \"setTask\",\n    \"inputs\": [\n      { \"type\": \"string\", \"name\": \"workURL\", \"internalType\": \"string\" },\n      { \"type\": \"string\", \"name\": \"options\", \"internalType\": \"string\" }\n    ]\n  }\n]\n",
+    "desc_chinese": "测试",
+    "desc_english": "test",
+    "price": "50",
+    "progress": "NotDownloaded"
+  }
+]
